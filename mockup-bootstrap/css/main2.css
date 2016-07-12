@@ -1,0 +1,222 @@
+img {
+  width: 100%;
+}
+
+.logo {
+  margin-top: 15px;
+  width: 75%;
+  padding-bottom: 15px;
+}
+
+.dropDownMenu {
+  font-size: 15px;
+  color: #f9077c;
+  margin-top: 15px;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 250px;
+  background-image: url(background.jpg);
+  background-repeat: round;
+}
+
+.textOverPic {
+  text-align: center;
+}
+
+.textOverPic h2 {
+  color: white;
+  font-size: 35px;
+}
+
+.textOverPic h4 {
+  color: #f9077c;
+}
+
+button {
+  width: 150px;
+  text-align: center;
+}
+
+.btn {
+  font-size: 12px;
+  margin: 10px;
+}
+
+.buttonMobile {
+  align-items: center;
+}
+
+.buttonLaptop {
+  align-items: center;
+}
+
+.btn-default {
+  border: 2px solid #989fa4;
+  font-weight: bold;
+  padding: 15px;
+  background-color: transparent;
+}
+
+.btn-success {
+  border: 2px #77d743 solid;
+  color: black;
+  background-color: #77d743;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.subHL {
+  margin-top: 30px;
+  color: #989fa4;
+  font-size: 15px;
+}
+
+.headLines {
+  margin-top: 50px;
+}
+
+.headLines h2 {
+  text-align: left;
+}
+
+.topicUnderHeader {
+  color: white;
+}
+
+.topicUnderHeader h3 {
+  font-size: 30px;
+}
+
+.topicUnderHeader .aboutUs {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.borderBottom {
+  margin-top: 30px;
+  border-bottom: 7px #0c96da solid;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 40%;
+    margin-top: 20px;
+    padding-bottom: 15px;
+  }
+  .dropDownMenu {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .jumbotron {
+    width: 100%;
+    height: 600px;
+  }
+  .topicUnderHeader {
+    display: none;
+  }
+  .textOverPic {
+    text-align: center;
+  }
+  .textOverPic h2 {
+    font-size: 80px;
+  }
+  .textOverPic h4 {
+    color: #f9077c;
+    font-size: 30px;
+    line-height: .75;
+  }
+  .btn {
+    font-size: 17px;
+    width: 300px;
+  }
+  .btn-default {
+    color: #989fa4;
+  }
+  .header-links {
+    display: none;
+  }
+  .headLines h2 {
+    font-size: 60px;
+    text-align: center;
+  }
+  .subHL {
+    font-size: 30px;
+  }
+  .aboutUs {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .logo {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .topBar {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  .header-links {
+    background-color: black;
+    color: white;
+    list-style: none;
+    height: 60px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .header-links img {
+    width: 50%;
+  }
+  .header-links li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .header-links li a {
+    color: white;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #f9077c;
+  }
+  .jumbotron {
+    width: 100%;
+    height: 600px;
+  }
+  .textOverPic {
+    text-align: center;
+  }
+  .textOverPic h2 {
+    font-size: 80px;
+  }
+  .textOverPic h4 {
+    color: #f9077c;
+    font-size: 30px;
+    line-height: .75;
+  }
+  .btn {
+    font-size: 17px;
+    width: 300px;
+  }
+  .btn-default {
+    color: #989fa4;
+  }
+  .headLines h2 {
+    font-size: 60px;
+    text-align: center;
+  }
+  .subHL {
+    font-size: 30px;
+  }
+  .aboutUs {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+}
